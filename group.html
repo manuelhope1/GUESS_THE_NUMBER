@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/group.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div id="body">
+
+        <div>
+            <h1 id="name">🎮 Guess the number game 🎮</h1>
+            
+        </div> 
+
+        <div class="themebox">
+            <i class="bi bi-brightness-high-fill" id="toggleDark" style="color: white;"></i>
+            <div class="theme" >
+                <button class="themesize theme1" style="background: linear-gradient(to right, #e80505,#0020ef);"></button>
+                <button class="themesize theme2" style="background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);"></button>
+                <button class="themesize theme3" style="background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);"></button>
+                <button class="themesize theme4" style="background: linear-gradient(to right,#104fd7, rgb(12, 105, 37)); "></button>
+                <button class="themesize theme5" style="background: linear-gradient(to right, #0787dd,#e3e3e6);"></button>
+
+            </div>
+        </div>
+        <div id="box"> 
+            
+            <div class="second">
+                <p class="display">GUESS A NUMBER BETWEEN 1-100</p>
+            </div>
+
+            <div class="third" >
+                
+                <p class="info"></p>
+                <form>
+                    <input type="number" class="num" placeholder="Num" id="input" >
+                </form>
+
+                <img id="imgg" style="padding-bottom:10px;">
+                
+                <div>
+                    <button class="guess" id="play" onclick="play()">GUESS</button>
+                    <button id="reset">RESET</button>
+                </div>
+                
+                
+            </div>
+
+            <div class="forth">
+                <p id="message_1" >No. of Guesses: 0</p>
+                <div class="mes22">
+                    <p id="message_2">Previous Guesses: null</p>
+                </div>
+            </div>
+
+            
+            
+
+            
+        </div>
+
+    </div>
+
+    <script src="js/group.js" defer></script>
+</body>
+</html>

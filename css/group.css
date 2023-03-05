@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+#name{
+    color: white ;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Gloock', serif;
+    text-decoration: underline rgb(114, 80, 80);
+    font-size: 35px;
+
+}
+
+.themebox{
+    height: auto;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+#box{
+    height: auto;
+    width: 450px;
+    padding: 30px 20px;
+    background: linear-gradient(to right, #0787dd,#e3e3e6);
+    border-radius: 5px;
+}
+
+.themesize{
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+
+.imgg{
+    height: 50px;
+    width: 70px;
+}
+
+
+.display{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Gloock', serif;
+    color: linear-gradient(to right, #0787dd,#e3e3e6);
+
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.info{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    max-width: auto;
+    min-width: 220px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    height: 60px;
+    width: 70px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+.guess{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(34, 104, 255);
+    border: 0;
+    color: white;
+}
+
+.guess:hover{
+    background-color: white;
+    border: 1px solid rgb(34, 104, 255);
+    color: rgb(34, 104, 255) ;
+    font-weight: bolder;
+}
+
+
+#reset{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(234, 61, 61);
+    border: 0;
+    color: white;
+}
+
+#reset:hover{
+    background-color: white;
+    border: 1px solid  rgb(234, 61, 61);
+    color:  rgb(234, 61, 61) ;
+    font-weight: bolder;
+}
+
+.forth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+}
+
+/* #message_2{
+    width: 200px;
+    height: auto;
+} */
+
+.mes22{
+    display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    word-break: break-all;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder { 
+    color: rgb(36, 204, 255);
+ 
+  }
+
